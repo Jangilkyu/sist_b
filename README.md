@@ -9,7 +9,11 @@ class MemberDao{
 
     public delete(){
         System.out.println("삭제");
+        System.out.println("insert ok, MemberDao");
     }
+	public int update() {
+		System.out.println("수정");
+	}
 }
 
 ```
