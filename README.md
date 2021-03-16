@@ -4,7 +4,12 @@
 ```java
 class MemberDao{
     public int insert(){
-        System.out.println("Hello, MemberDao");
+        System.out.println("성공");
+    }
+
+    public delete(){
+        System.out.println("삭제");
     }
 }
+
 ```
